@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './NavBar'
+import ResponsiveDrawer from './ResponsiveDrawer'
 import TemporyDrawer from './TemporyDrawer'
 import Button from '@material-ui/core/Button';
 import Modal from '@material-ui/core/Modal';
@@ -16,6 +17,8 @@ class App extends Component {
         <Button variant = "contained" color="primary">
         Hello World
         </Button>
+        <ResponsiveDrawer>
+        </ResponsiveDrawer>
         <br/>
         </div>
     )
