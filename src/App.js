@@ -4,18 +4,20 @@ import './App.css';
 import NavBar from './NavBar'
 import TemporyDrawer from './TemporyDrawer'
 import Button from '@material-ui/core/Button';
-import Drawer from '@material-ui/core/Drawer';
+import Modal from '@material-ui/core/Modal';
+import AppBar from '@material-ui/core/AppBar';
 
 class App extends Component {
   render() {
     return (
      <div>
-        <NavBar />
-        <Button variant="contained" color="primary">
+        <NavBar>
+        </NavBar>
+        <Button variant = "contained" color="primary">
         Hello World
         </Button>
-        <TemporyDrawer />
-     </div>
+        <br/>
+        </div>
     )
   }
 }
